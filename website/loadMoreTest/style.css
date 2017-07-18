@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial';
+}
+.wrap-button {
+	width: 300px;
+	overflow: hidden;
+	margin: auto;
+}
+	.wrap-button .btn-load{
+		background: #2a2a2a;
+	}
+.wrap {
+	margin: 100px;
+	overflow: hidden;
+	width: 600px;
+	margin: auto;
+}
+
+	.wrap .box-hidden {
+		display: none;
+	}
+
+	.wrap .box {
+		padding: 50px;
+		background: #3498db;
+		float: left;
+		margin: 10px;
+		color: white;
+	}

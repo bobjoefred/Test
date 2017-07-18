@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+
+.rotateimg180 {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+</style>
+
+<body>
+
+<img src="https://www.gamingnexus.com/Images/News/uelnuv35646/2.jpg" alt="Smiley face" width="900" height="600">
+
+<img src="https://s3-us-west-1.amazonaws.com/snappcastphotos/images/0012C75F-400B-4B43-879A-965C8C158794-14858-000011B883F458DB" alt="Smiley face" width="900" height="600" class="rotateimg180">
+
+<?php 
+	echo "testing" ; 
+?>
+<?php include '/var/www/html/website/Dad/echo1.php';?>
+
+<?php 
+	$str="Ollie";
+	include '/var/www/html/website/Dad/echo.php';?>
+
+<?php 
+	$lat=34.043492;
+	$lon=-118.267340;
+	$distance=1.0;
+	include '/var/www/html/website/Dad/rotatetest.php'; 
+
+?>
+
+</body>
+</html>
